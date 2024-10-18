@@ -1,0 +1,87 @@
+.stock {
+  font-family: 'Roboto', sans-serif;
+  //color: rgb(0, 0, 0);
+  text-align: left;
+}
+.H1 {
+  @extend .stock;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.H2{
+  @extend .stock;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.H3{
+  @extend .stock;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.H4{
+  @extend .stock;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.Body1 {
+  @extend .stock;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.Subtitle1{
+  @extend .stock;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.Body2{
+  @extend .stock;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.Subtitle2{
+  @extend .stock;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.Caption{
+  @extend .stock;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+.Overline{
+  @extend .stock;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+}
+.Link1{
+  @extend .stock;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-decoration-line: underline;
+}
+.Link2{
+  @extend .stock;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-decoration-line: underline;
+}
